@@ -1,3 +1,7 @@
+<svelte:head>
+    <meta name="description" content="Learn more about Toska Bear" />
+</svelte:head>
+
 <div class="relative min-h-screen w-full bg-black">
 	<enhanced:img
 		src="/static/clockwork-orange.jpeg"

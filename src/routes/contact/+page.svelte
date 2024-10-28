@@ -1,3 +1,7 @@
+<svelte:head>
+    <meta name="description" content="Here's how to get in touch with Toska Bear." />
+</svelte:head>
+
 <div class="relative h-full w-full bg-black">
 	<enhanced:img src="/static/frontal.png" alt="Jason Porter is Toska Bear" class="object-fit h-full w-full object-cover" />
 	<section

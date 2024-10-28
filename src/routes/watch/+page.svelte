@@ -1,3 +1,7 @@
+<svelte:head>
+    <meta name="description" content="Watch Toska Bear's videos on YouTube." />
+</svelte:head>
+
 <div class="relative h-full w-full bg-black">
 	<enhanced:img src="/static/glitch.jpg" alt="Watch Toska Bear on YouTube" class="object-fit h-full w-full object-cover" />
 	<div class="absolute inset-0 z-0 bg-black/60"></div>

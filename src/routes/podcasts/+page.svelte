@@ -1,3 +1,7 @@
+<svelte:head>
+    <meta name="description" content="Listen to Toska Bear on podcasts." />
+</svelte:head>
+
 <div class="relative h-full w-full bg-black flex justify-center items-center">
 	<iframe
 		title="Podcasts embed"
