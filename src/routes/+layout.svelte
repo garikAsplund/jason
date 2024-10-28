@@ -79,7 +79,7 @@
 	<meta property="og:image" content="https://toskabear.vercel.app/JPP.jpeg" />
 	<meta
 		property="og:description"
-		content="Indie Electronic Bear Musician. Check out my new album TAKING MY MIND FOR A RIDE on streaming platforms & vinyl!"
+		content="Check out my new album TAKING MY MIND FOR A RIDE on streaming platforms & vinyl!"
 	/>
 	<meta property="og:site_name" content="Toska Bear | Indie Electronic Bear Musician" />
 
@@ -88,7 +88,7 @@
 	<meta name="twitter:title" content="Toska Bear" />
 	<meta
 		name="twitter:description"
-		content="Indie Electronic Bear Musician. Check out my new album TAKING MY MIND FOR A RIDE on streaming platforms & vinyl!"
+		content="Check out my new album TAKING MY MIND FOR A RIDE on streaming platforms & vinyl!"
 	/>
 	<meta name="twitter:image" content="https://toskabear.vercel.app/JPP.jpeg" />
 </svelte:head>
