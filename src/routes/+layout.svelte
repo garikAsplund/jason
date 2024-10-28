@@ -84,7 +84,7 @@
 	<meta property="og:site_name" content="Toska Bear | Indie Electronic Bear Musician" />
 
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@toskabear" />
+	<meta name="twitter:site" content="@ToskaBear" />
 	<meta name="twitter:title" content="Toska Bear" />
 	<meta
 		name="twitter:description"
