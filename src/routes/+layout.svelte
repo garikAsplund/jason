@@ -17,9 +17,9 @@
 {#if initialRender}
 	<div in:fade={{ duration: 1400 }} class="flex h-screen w-full justify-start">
 		<Nav />		
+		<Icons />
 
 		{#key $page.url.pathname}
-		<Icons />
 			<div in:fade={{ duration: 1000 }} class="w-full h-full">
 				{@render children()}
 			</div>
