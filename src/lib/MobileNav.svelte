@@ -16,7 +16,8 @@
 >
 	<button
 		onclick={() => (hidden2 = false)}
-		class="flex items-center justify-center bg-black/70 text-orange-500/70 p-2"
+		aria-label="Open expandable menu"
+		class="flex items-center justify-center bg-black/70 text-orange-500/80 p-2"
 	>
 		<p class=" py-2 text-xl">MENU</p>
 		<svg
@@ -53,6 +54,7 @@
 				<li class="w-full">
 					<a
 						href="/"
+						aria-label="Home"
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
@@ -66,6 +68,7 @@
 				<li class="w-full">
 					<a
 						href="/about"
+						aria-label="About"
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
@@ -81,6 +84,7 @@
 				<li class="w-full">
 					<a
 						href="/vinyl"
+						aria-label="Vinyl"
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
@@ -96,6 +100,7 @@
 				<li class="w-full">
 					<a
 						href="/watch"
+						aria-label="Watch"
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
@@ -111,6 +116,7 @@
 				<li class="w-full">
 					<a
 						href="/podcasts"
+						aria-label="Podcasts"
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
@@ -126,6 +132,7 @@
 				<li class="w-full">
 					<a
 						href="/contact"
+						aria-label="Contact"
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
@@ -143,7 +150,8 @@
 		<div class="fixed -right-5 bottom-36 -rotate-90">
 			<button
 				onclick={() => (hidden2 = true)}
-				class="flex items-center justify-center bg-transparent text-orange-500/70"
+				aria-label="Close expandable menu"
+				class="flex items-center justify-center bg-transparent text-orange-500/80"
 			>
 				<p class="p-2 text-xl">CLOSE</p>
 				<svg
