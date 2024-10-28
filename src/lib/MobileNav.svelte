@@ -16,9 +16,9 @@
 >
 	<button
 		onclick={() => (hidden2 = false)}
-		class="flex items-center justify-center bg-black/70 text-orange-500/70"
+		class="flex items-center justify-center bg-black/70 text-orange-500/70 p-2"
 	>
-		<p class="px-4 py-2 text-xl">MENU</p>
+		<p class=" py-2 text-xl">MENU</p>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
@@ -29,7 +29,7 @@
 			stroke-width="2"
 			stroke-linecap="round"
 			stroke-linejoin="round"
-			class="lucide lucide-chevrons-left rotate-90"
+			class="lucide lucide-chevrons-left rotate-90 "
 		>
 			<path d="m11 17-5-5 5-5" />
 			<path d="m18 17-5-5 5-5" />
