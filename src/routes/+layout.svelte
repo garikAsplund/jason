@@ -18,7 +18,7 @@
 {#if initialRender}
 	<div in:fade={{ duration: 1400 }} class="flex h-screen w-full justify-start">
 		<Nav />	
-		<MobileNav />	
+		<!-- <MobileNav />	 -->
 		<Icons />
 
 		{#key $page.url.pathname}
