@@ -3,7 +3,7 @@
 </script>
 
 <nav
-	class="hidden h-full flex-col items-center justify-center font-mono text-4xl text-white text-opacity-85 md:flex md:w-1/4"
+	class="hidden h-full flex-col items-center justify-center font-mono text-4xl text-white text-opacity-85 md:flex md:w-1/4 pl-8"
 >
 	<List />
 </nav>

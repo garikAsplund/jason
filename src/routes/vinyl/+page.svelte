@@ -7,7 +7,7 @@
     <div class="absolute inset-0 z-0 bg-black/60"></div>
     <!-- Container for the album images -->
     <div class="absolute inset-0 flex items-center justify-center z-10">
-        <div class="flex flex-col items-center space-y-8 md:space-y-16 px-4 w-full">
+        <div class="flex flex-col md:flex-row items-end justify-around space-y-8 md:space-y-16 px-4 w-full">
             <div class="w-[80%] md:w-[30%]">
                <a 
                     href="https://toskabear.myshopify.com/products/taking-my-mind-for-a-ride-vinyl-record-pre-order"

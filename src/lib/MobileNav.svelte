@@ -45,99 +45,68 @@
 	bind:hidden={hidden2}
 	id="sidebar2"
 >
-	<Sidebar>
+	<Sidebar class="w-3/4 pl-8">
 		<nav
-			class="h-full flex-col items-center justify-center font-mono text-4xl text-white text-opacity-85 md:flex md:w-1/4"
+			class="h-full flex flex-col items-center justify-center font-mono text-4xl text-white text-opacity-85 md:w-1/4"
 		>
-			<ul class="space-y-4 p-4">
-				<li class="p-2">
-					<a href="/" class="hover:opacity-75" onclick={() => (hidden2 = true)}>
+			<ul class="space-y-4 p-4 w-full">
+				<li class="w-full">
+					<a href="/" class="block w-full p-4 text-left hover:opacity-75" onclick={() => (hidden2 = true)}>
 						Home<span
 							class="transition-opacity {$page.url.pathname === '/' ? 'opacity-100' : 'opacity-0'}"
 						>
-							/</span
-						>
+							/
+						</span>
 					</a>
 				</li>
-				<li class="p-2">
-					<a href="/about" class="hover:opacity-75" onclick={() => (hidden2 = true)}>
+				<li class="w-full">
+					<a href="/about" class="block w-full p-4 text-left hover:opacity-75" onclick={() => (hidden2 = true)}>
 						About<span
-							class="transition-opacity {$page.url.pathname === '/about'
-								? 'opacity-100'
-								: 'opacity-0'}"
+							class="transition-opacity {$page.url.pathname === '/about' ? 'opacity-100' : 'opacity-0'}"
 						>
-							/</span
-						>
+							/
+						</span>
 					</a>
 				</li>
-				<li class="p-2">
-					<a href="/vinyl" class="hover:opacity-75" onclick={() => (hidden2 = true)}>
+				<li class="w-full">
+					<a href="/vinyl" class="block w-full p-4 text-left hover:opacity-75" onclick={() => (hidden2 = true)}>
 						Vinyl<span
-							class="transition-opacity {$page.url.pathname === '/vinyl'
-								? 'opacity-100'
-								: 'opacity-0'}"
+							class="transition-opacity {$page.url.pathname === '/vinyl' ? 'opacity-100' : 'opacity-0'}"
 						>
-							/</span
-						>
+							/
+						</span>
 					</a>
 				</li>
-				<li class="p-2">
-					<a href="/watch" class="hover:opacity-75" onclick={() => (hidden2 = true)}>
+				<li class="w-full">
+					<a href="/watch" class="block w-full p-4 text-left hover:opacity-75" onclick={() => (hidden2 = true)}>
 						Watch<span
-							class="transition-opacity {$page.url.pathname === '/watch'
-								? 'opacity-100'
-								: 'opacity-0'}"
+							class="transition-opacity {$page.url.pathname === '/watch' ? 'opacity-100' : 'opacity-0'}"
 						>
-							/</span
-						>
+							/
+						</span>
 					</a>
 				</li>
-				<li class="p-2">
-					<a href="/podcasts" class="hover:opacity-75" onclick={() => (hidden2 = true)}>
+				<li class="w-full">
+					<a href="/podcasts" class="block w-full p-4 text-left hover:opacity-75" onclick={() => (hidden2 = true)}>
 						Podcasts<span
-							class="transition-opacity {$page.url.pathname === '/podcasts'
-								? 'opacity-100'
-								: 'opacity-0'}"
+							class="transition-opacity {$page.url.pathname === '/podcasts' ? 'opacity-100' : 'opacity-0'}"
 						>
-							/</span
-						>
+							/
+						</span>
 					</a>
 				</li>
-				<li class="p-2">
-					<a href="/contact" class="hover:opacity-75" onclick={() => (hidden2 = true)}>
+				<li class="w-full">
+					<a href="/contact" class="block w-full p-4 text-left hover:opacity-75" onclick={() => (hidden2 = true)}>
 						Contact<span
-							class="transition-opacity {$page.url.pathname === '/contact'
-								? 'opacity-100'
-								: 'opacity-0'}"
+							class="transition-opacity {$page.url.pathname === '/contact' ? 'opacity-100' : 'opacity-0'}"
 						>
-							/</span
-						>
+							/
+						</span>
 					</a>
 				</li>
 			</ul>
 		</nav>
-		<div class="fixed -right-5 bottom-36 -rotate-90">
-			<button
-				onclick={() => (hidden2 = true)}
-				class="flex items-center justify-center bg-transparent text-orange-500/70"
-			>
-				<p class="p-2 text-xl">CLOSE</p>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="rgb(255 90 31 / 0.7)"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					class="lucide lucide-chevrons-left -rotate-90"
-				>
-					<path d="m11 17-5-5 5-5" />
-					<path d="m18 17-5-5 5-5" />
-				</svg>
-			</button>
-		</div>
 	</Sidebar>
 </Drawer>
+
+
