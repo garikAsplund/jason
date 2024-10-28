@@ -1,13 +1,15 @@
 <div class="relative h-full w-full bg-black">
-    <enhanced:img src="/static/glitch.jpg" class="object-fit h-full w-full object-cover" />
-    <div class="absolute inset-0 bg-black/60 z-0"></div> <!-- Overlay with opacity -->
-    <iframe
-        class="absolute inset-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-2xl max-h-[315px] z-10" 
-        src="https://www.youtube.com/embed/videoseries?si=egRlPevLPJ98RxLu&list=PLpPXgHI520rnLz62CTjqpm58qMUrjnuXS"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-    ></iframe>
+	<enhanced:img src="/static/glitch.jpg" class="object-fit h-full w-full object-cover" />
+	<div class="absolute inset-0 z-0 bg-black/60"></div>
+	<iframe
+		width="560"
+		height="315"
+		class="absolute inset-0 left-1/2 top-1/2 z-10 h-full max-h-[315px] w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 transform"
+		src="https://www.youtube.com/embed/bkGOggv9Jsg?si=t0UlGGCSdXBjY5Ft"
+		title="YouTube video player"
+		frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		referrerpolicy="strict-origin-when-cross-origin"
+		allowfullscreen
+	></iframe>
 </div>

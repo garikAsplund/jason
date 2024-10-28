@@ -5,6 +5,7 @@
 	import { page } from '$app/stores';
 	import Icons from '$lib/Icons.svelte';
 	import Nav from '$lib/Nav.svelte';
+	import MobileNav from '$lib/MobileNav.svelte';
 
 	let { children } = $props();
 
@@ -16,7 +17,8 @@
 
 {#if initialRender}
 	<div in:fade={{ duration: 1400 }} class="flex h-screen w-full justify-start">
-		<Nav />		
+		<Nav />	
+		<MobileNav />	
 		<Icons />
 
 		{#key $page.url.pathname}

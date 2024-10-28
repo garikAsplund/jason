@@ -4,6 +4,7 @@
 	import Instagram from './Icons/Instagram.svelte';
 	import Spotify from './Icons/Spotify.svelte';
 	import X from './Icons/X.svelte';
+	import YouTube from './Icons/YouTube.svelte';
 </script>
 
 <div
@@ -13,5 +14,6 @@
 	<Instagram />
 	<Spotify />
 	<Apple />
+    <YouTube />
 	<X />
 </div>
