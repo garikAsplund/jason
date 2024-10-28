@@ -6,9 +6,9 @@
     <enhanced:img src="/static/tunnel.jpg" alt="Toska tunnel" class="h-full w-full object-cover" />
     <div class="absolute inset-0 z-0 bg-black/60"></div>
     <!-- Container for the album images -->
-    <div class="absolute inset-0 flex items-center justify-center z-10">
-        <div class="flex flex-col md:flex-row items-end justify-around space-y-8 md:space-y-16 px-4 w-full">
-            <div class="w-[80%] md:w-[30%]">
+    <div class="absolute inset-0 flex items-center justify-center">
+        <div class="flex flex-col md:flex-row items-center md:items-end justify-around space-y-8 md:space-y-16 px-4 w-full">
+            <div class="w-[75%] sm:w-[65%] md:w-[30%]">
                <a 
                     href="https://toskabear.myshopify.com/products/taking-my-mind-for-a-ride-vinyl-record-pre-order"
                     target="_blank"
@@ -24,7 +24,7 @@
                     <div class="absolute inset-0 bg-white opacity-0 hover:opacity-10 transition-opacity duration-300"></div>
                 </a>
             </div>
-            <div class="w-[80%] md:w-[30%]">
+            <div class="w-[75%] sm:w-[65%] md:w-[30%]">
                 <a
                     href="https://toskabear.myshopify.com/products/year-of-the-beard-vinyl-record"
                     target="_blank"
