@@ -1,6 +1,7 @@
 <div class="relative min-h-screen w-full bg-black">
 	<enhanced:img
 		src="/static/clockwork-orange.jpeg"
+        alt="Clockwork Orange"
 		class="absolute inset-0 h-full w-full object-cover"
 	/>
 	<section

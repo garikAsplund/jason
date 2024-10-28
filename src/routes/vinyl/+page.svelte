@@ -1,5 +1,5 @@
 <div class="relative h-screen w-full bg-black">
-    <enhanced:img src="/static/tunnel.jpg" class="h-full w-full object-cover" />
+    <enhanced:img src="/static/tunnel.jpg" alt="Toska tunnel" class="h-full w-full object-cover" />
     <div class="absolute inset-0 z-0 bg-black/60"></div>
     <!-- Container for the album images -->
     <div class="absolute inset-0 flex items-center justify-center z-10">
@@ -14,6 +14,7 @@
                 >
                     <enhanced:img 
                         src="/static/TMMFAR.jpeg" 
+						alt="Takes My Mind for a Ride on vinyl"
                         class="w-full h-full object-contain"
                     />
                     <div class="absolute inset-0 bg-white opacity-0 hover:opacity-10 transition-opacity duration-300"></div>
@@ -29,6 +30,7 @@
                 >
                     <enhanced:img 
                         src="/static/year-of-the-beard.jpg" 
+						alt="Year of the Beard on vinyl"
                         class="w-full h-full object-contain"
                     />
                     <div class="absolute inset-0 bg-white opacity-0 hover:opacity-10 transition-opacity duration-300"></div>

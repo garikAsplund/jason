@@ -1,5 +1,5 @@
 <div class="relative h-full w-full bg-black">
-	<enhanced:img src="/static/glitch.jpg" class="object-fit h-full w-full object-cover" />
+	<enhanced:img src="/static/glitch.jpg" alt="Watch Toska Bear on YouTube" class="object-fit h-full w-full object-cover" />
 	<div class="absolute inset-0 z-0 bg-black/60"></div>
 	<iframe
 		width="560"
@@ -8,6 +8,7 @@
 		src="https://www.youtube.com/embed/bkGOggv9Jsg?si=t0UlGGCSdXBjY5Ft"
 		title="YouTube video player"
 		frameborder="0"
+		loading="lazy" 
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 		referrerpolicy="strict-origin-when-cross-origin"
 		allowfullscreen
