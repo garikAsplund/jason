@@ -1,20 +1,16 @@
+<script lang="ts">
+	import Videos from '$lib/Videos.svelte';
+</script>
+
 <svelte:head>
-    <meta name="description" content="Watch Toska Bear's videos on YouTube." />
+	<meta name="description" content="Watch Toska Bear's videos on YouTube." />
 </svelte:head>
 
-<div class="relative h-full w-full bg-black">
-	<enhanced:img src="/static/glitch.jpg" alt="Watch Toska Bear on YouTube" class="object-fit h-full w-full object-cover" />
-	<div class="absolute inset-0 z-0 bg-black/60"></div>
-	<iframe
-		width="560"
-		height="315"
-		class="absolute inset-0 left-1/2 top-1/2 z-10 h-full max-h-[315px] w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 transform"
-		src="https://www.youtube.com/embed/bkGOggv9Jsg?si=t0UlGGCSdXBjY5Ft"
-		title="YouTube video player"
-		frameborder="0"
-		loading="lazy" 
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-		referrerpolicy="strict-origin-when-cross-origin"
-		allowfullscreen
-	></iframe>
+<div class="relative flex h-screen w-full flex-col bg-black">
+
+	<div class="mt-16 flex-1 overflow-y-auto p-5">
+		<div class="relative mx-auto w-[80%] rounded-lg">
+			<Videos />
+		</div>
+	</div>
 </div>

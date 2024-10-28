@@ -15,7 +15,7 @@
 			class="mx-auto max-w-4xl space-y-6 py-8 text-justify text-base leading-relaxed md:space-y-8 md:text-2xl md:leading-loose lg:text-3xl"
 		>
 			<p>
-				Toska Bear is the alter ego of Columbus, Ohio based musician Jason Porter. Toska Bear blends
+				Toska Bear is the alter ego of Columbus-based musician Jason Porter. Toska Bear blends
 				elements of indie pop, synthwave, EDM, hip-hop, indie rock, and vaporwave.
 			</p>
 			<p>
