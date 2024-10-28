@@ -1,3 +1,33 @@
-<div class="h-full w-full bg-black">
-	<enhanced:img src="/static/tunnel.jpg" class="object-cover object-fit w-full h-full "/>
+<div class="relative h-screen w-full bg-black">
+    <enhanced:img src="/static/tunnel.jpg" class="object-fit h-full w-full object-cover" />
+    <div class="absolute inset-0 z-0 bg-black/60"></div>
+    <!-- Container for the album images -->
+    <div class="absolute inset-0 flex items-center justify-center z-10">
+        <div class="flex flex-col items-center space-y-16">
+            <div class="w-[30%]">
+                <a
+                    href="https://toskabear.myshopify.com/products/taking-my-mind-for-a-ride-vinyl-record-pre-order"
+                    target="_blank"
+                    aria-label="Purchase Take My Mind for a Ride on vinyl"
+                    rel="noopener noreferrer"
+                    class="relative block"
+                >
+                    <enhanced:img src="/static/TMMFAR.jpeg" class="w-full h-auto" />
+                    <div class="absolute inset-0 bg-white opacity-0 hover:opacity-10 transition-opacity duration-300"></div>
+                </a>
+            </div>
+            <div class="w-[30%]">
+                <a
+                    href="https://toskabear.myshopify.com/products/year-of-the-beard-vinyl-record"
+                    target="_blank"
+                    aria-label="Purchase Year of the Beard on vinyl"
+                    rel="noopener noreferrer"
+                    class="relative block"
+                >
+                    <enhanced:img src="/static/year-of-the-beard.jpg" class="w-full h-auto" />
+                    <div class="absolute inset-0 bg-white opacity-0 hover:opacity-10 transition-opacity duration-300"></div>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
