@@ -30,7 +30,7 @@
 			const playButton = document.createElement('div');
 			playButton.setAttribute('class', 'play');
             playButton.innerHTML = `
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 68px; height: 48px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -20%);">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 68px; height: 48px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
                 <path 
                     fill="none" 
                     stroke="white" 
@@ -87,33 +87,29 @@
 		z-index: 100;
 		background: transparent;
 	}
-	.youtube-player img.thumbnail {
-		object-fit: cover;
-		display: block;
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		border: none;
-		cursor: pointer;
-		transition: filter 0.4s;
-	}
+	.youtube-player .play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;  /* This ensures clicks go through to the parent div */
+}
+
+.youtube-player img.thumbnail {
+    width: 100%;
+    height: 100%;
+    position: relative;  /* Change to relative */
+    cursor: pointer;
+}
 	.youtube-player img.thumbnail:hover {
 		filter: brightness(75%);
 	}
-	.youtube-player .play {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;  
-        align-items: center;  
-        justify-content: center;  
-        cursor: pointer;
-        z-index: 200;
-    }
 
     .youtube-player .play::before {
         content: '';
