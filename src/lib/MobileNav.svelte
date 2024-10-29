@@ -58,11 +58,11 @@
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
-						Home<span
+						<span
 							class="transition-opacity {$page.url.pathname === '/' ? 'opacity-100' : 'opacity-0'}"
 						>
 							/
-						</span>
+						</span>Home
 					</a>
 				</li>
 				<li class="w-full">
@@ -72,13 +72,13 @@
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
-						About<span
+						<span
 							class="transition-opacity {$page.url.pathname === '/about'
 								? 'opacity-100'
 								: 'opacity-0'}"
 						>
 							/
-						</span>
+						</span>About
 					</a>
 				</li>
 				<li class="w-full">
@@ -88,13 +88,13 @@
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
-						Vinyl<span
+						<span
 							class="transition-opacity {$page.url.pathname === '/vinyl'
 								? 'opacity-100'
 								: 'opacity-0'}"
 						>
 							/
-						</span>
+						</span>Vinyl
 					</a>
 				</li>
 				<li class="w-full">
@@ -104,13 +104,13 @@
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
-						Watch<span
+						<span
 							class="transition-opacity {$page.url.pathname === '/watch'
 								? 'opacity-100'
 								: 'opacity-0'}"
 						>
 							/
-						</span>
+						</span>Watch
 					</a>
 				</li>
 				<li class="w-full">
@@ -120,13 +120,13 @@
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
-						Podcasts<span
+						<span
 							class="transition-opacity {$page.url.pathname === '/podcasts'
 								? 'opacity-100'
 								: 'opacity-0'}"
 						>
 							/
-						</span>
+						</span>Podcasts
 					</a>
 				</li>
 				<li class="w-full">
@@ -136,13 +136,13 @@
 						class="block w-full p-4 text-left hover:opacity-75"
 						onclick={() => (hidden2 = true)}
 					>
-						Contact<span
+						<span
 							class="transition-opacity {$page.url.pathname === '/contact'
 								? 'opacity-100'
 								: 'opacity-0'}"
 						>
 							/
-						</span>
+						</span>Contact
 					</a>
 				</li>
 			</ul>

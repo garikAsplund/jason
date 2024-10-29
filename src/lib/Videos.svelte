@@ -2,7 +2,7 @@
 	import { videos } from "$lib/videos";
 </script>
 
-<section class="scrollbar-hide max-h-[80vh] overflow-y-auto">
+<section class="w-full max-h-[85vh] overflow-y-auto">
 	<div class="mb-48 flex flex-col gap-24 p-4">
 	<div class="scroll-down justify-center items-center hidden md:flex"><span></span><span></span></div>	
 		{#each videos as video}
