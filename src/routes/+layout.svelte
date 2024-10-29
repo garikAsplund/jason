@@ -9,6 +9,27 @@
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
 
+	console.log(
+    `%c
+  ,ad8888ba,                           88  88              ,ad8888ba,                         88                         
+ d8"'    \`"8b                          ""  88             d8"'    \`"8b                        88                         
+d8'                                        88            d8'                                  88                         
+88             ,adPPYYba,  8b,dPPYba,  88  88   ,d8      88              ,adPPYba,    ,adPPYb,88   ,adPPYba,  ,adPPYba,  
+88      88888  ""     \`Y8  88P'   "Y8  88  88 ,a8"       88             a8"     "8a  a8"    \`Y88  a8P_____88  I8[    ""  
+Y8,        88  ,adPPPPP88  88          88  8888[         Y8,            8b       d8  8b       88  8PP"""""""   \`"Y8ba,   
+ Y8a.    .a88  88,    ,88  88          88  88\`"Yba,       Y8a.    .a8P  "8a,   ,a8"  "8a,   ,d88  "8b,   ,aa  aa    ]8I  
+  \`"Y88888P"   \`"8bbdP"Y8  88          88  88   \`Y8a       \`"Y8888Y"'    \`"YbbdP"'    \`"8bbdP"Y8   \`"Ybbd8"'  \`"YbbdP"'  
+                                                                                                                         
+                                                                                                                         
+`,
+    "color: #32CD32; background-color: #000; font-family: monospace; padding: 8px 0;"
+);
+console.log(
+    "%c👾 Building with passion, one line at a time. \n https://www.garik.codes \n\n",
+    "color: #32CD32; background-color: #000; font-family: monospace; padding: 4px 0;"
+);
+
+
 	inject({ mode: dev ? 'development' : 'production' });
 
 	let { children } = $props();
