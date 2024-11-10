@@ -27,7 +27,7 @@
 		position: relative;
 		left: 50%;
 		transform: translate(-50%, -50%);
-        animation: fade-and-move 4s ease-in-out 1 forwards;
+        animation: fade-and-move 6s ease-in-out 1 forwards;
 	}
 
 	.scroll-down span {
