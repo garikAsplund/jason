@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="fixed bottom-0 flex w-full items-end justify-center space-x-4 fill-white pb-2 md:pb-4 z-10"
+	class="fixed bottom-0 flex w-full items-end justify-center space-x-4 fill-white pb-4 md:pb-8 z-10"
 >
 	<Facebook />
 	<Instagram />
