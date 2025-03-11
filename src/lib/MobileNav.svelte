@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Drawer, SidebarGroup, SidebarItem, Sidebar, SidebarWrapper } from 'flowbite-svelte';
 	import List from './List.svelte';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	let hidden2: boolean = $state(true);
 	let transitionParams = {
 		x: 320,
@@ -59,7 +59,7 @@
 						onclick={() => (hidden2 = true)}
 					>
 						<span
-							class="transition-opacity {$page.url.pathname === '/' ? 'opacity-100' : 'opacity-0'}"
+							class="transition-opacity {page.url.pathname === '/' ? 'opacity-100' : 'opacity-0'}"
 						>
 							/
 						</span>Home
@@ -73,7 +73,7 @@
 						onclick={() => (hidden2 = true)}
 					>
 						<span
-							class="transition-opacity {$page.url.pathname === '/about'
+							class="transition-opacity {page.url.pathname === '/about'
 								? 'opacity-100'
 								: 'opacity-0'}"
 						>
@@ -89,7 +89,7 @@
 						onclick={() => (hidden2 = true)}
 					>
 						<span
-							class="transition-opacity {$page.url.pathname === '/vinyl'
+							class="transition-opacity {page.url.pathname === '/vinyl'
 								? 'opacity-100'
 								: 'opacity-0'}"
 						>
@@ -105,7 +105,7 @@
 						onclick={() => (hidden2 = true)}
 					>
 						<span
-							class="transition-opacity {$page.url.pathname === '/watch'
+							class="transition-opacity {page.url.pathname === '/watch'
 								? 'opacity-100'
 								: 'opacity-0'}"
 						>
@@ -121,7 +121,7 @@
 						onclick={() => (hidden2 = true)}
 					>
 						<span
-							class="transition-opacity {$page.url.pathname === '/podcasts'
+							class="transition-opacity {page.url.pathname === '/podcasts'
 								? 'opacity-100'
 								: 'opacity-0'}"
 						>
@@ -137,7 +137,7 @@
 						onclick={() => (hidden2 = true)}
 					>
 						<span
-							class="transition-opacity {$page.url.pathname === '/contact'
+							class="transition-opacity {page.url.pathname === '/contact'
 								? 'opacity-100'
 								: 'opacity-0'}"
 						>

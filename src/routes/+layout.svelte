@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
 	import '../app.css';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import Icons from '$lib/Icons.svelte';
 	import Nav from '$lib/Nav.svelte';
 	import MobileNav from '$lib/MobileNav.svelte';
@@ -40,7 +40,7 @@ console.log(
 	});
 
 	let path = $derived(
-		$page.url.pathname
+		page.url.pathname
 			.replace(/^\/|\/$/g, '')
 			.split('/')
 			.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
@@ -124,7 +124,7 @@ console.log(
 		<MobileNav />
 		<Icons />
 
-		{#key $page.url.pathname}
+		{#key page.url.pathname}
 			<div in:fade={{ duration: 1000 }} class="h-full w-full">
 				{@render children()}
 			</div>
